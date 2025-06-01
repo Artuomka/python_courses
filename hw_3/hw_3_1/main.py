@@ -10,15 +10,15 @@ else:
         result = first_number + second_number
         print(result)
 
-    if operation == "-":
+    elif operation == "-":
         result = first_number - second_number
         print(result)
 
-    if operation == "*":
+    elif operation == "*":
         result = first_number * second_number
         print(result)
 
-    if operation == "/":
+    elif operation == "/":
         if second_number != 0:
             result = first_number / second_number
             print(result)
